@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="#"><img class="logoG" src="image/logo.svg" alt="Studio Ghibli"></a>
+
+        <nav>
+            <a class="links" href="#"><img src="image/logo-google.svg" alt="google"></a>
+            <a class="links" href="#"><img src="image/logo-facebook.svg" alt="facebook"></a>
+            <a class="links" href="#"><img src="image/logo-twitter.svg" alt="twitter"></a>
+            <a class="links" href="#"><img src="image/logo-instagram.svg" alt="instagram"></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <div class="descricao">
+                <h3>HAYAO MIYAZAKI</h3>
+                <h2>A VIAGEM DE CHIHIRO</h2>
+                <p>Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.</p>
+                
+                <div class="botoes">
+                    <button class="botao botao-primario" onclick="netflix()"><i class="fa-solid fa-play"></i>ASSISTIR AGORA</button>
+                    <button class="botao botao-secundario" onclick="trailer()">ASSISTA O TRAILER</button>
+                </div>
+            </div>
+            <div class="ilustracao"></div>
+        </section>
+    </main>
+</body>
+<script>
+    function netflix()
+    {
+        location.href = "https://www.netflix.com/br/title/60023642";
+    }
+
+    function trailer()
+    {
+        location.href = "https://www.youtube.com/watch?v=fDUFP7EeXLE";
+    }
+</script>
+</html>
